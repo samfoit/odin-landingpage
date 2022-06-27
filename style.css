@@ -18,6 +18,7 @@ body {
 .nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 ul {
@@ -26,8 +27,19 @@ ul {
     list-style: none;
     margin: 0px;
     padding: 0px;
+    margin-right: 20vh;
+    align-items: center;
 }
 
 a {
     text-decoration: none;
+    color: #c6c6c6;
+    font-size: 12px;
+}
+
+.logo {
+    font-size: 18px;
+    color: #F9FAF8;
+    margin-left: 20vh;
+    font-weight: bold;
 }
