@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px;
+    min-height: 100vh;
+}
+
+.nav, .footer {
+    background-color: #1F2937;
+    flex: 0.25 1 auto;
+}
+
+.header, .info, .quote, .sign-up {
+    flex: 1 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
