@@ -122,19 +122,55 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 40px;
 }
 
 .quote-text {
     font-size: 24px;
     color: #525252;
-    padding: 0px 350px 0px 350px;
+    padding: 0px 30% 0px 30%;
 }
 
 .quote-text strong {
     color: #000000;
     display: inline;
     font-size: 16px;
-    padding: 100px 0px 0px 2vh;
+    padding: 0px 0px 0px 70%;
+}
+
+.sign-up{
+    background-color: #3882F6;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.second-button {
+   background-color:transparent;
+   color: white;
+   border: 2px solid white;
+   border-radius: 4px;
+   padding: 0px 20px 0px 20px;
+   font-size: 10px;
+}
+
+.call-to-action {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.sign-up-text {
+    color: white;
+    font-style: italic;
+    font-size: 10px;
+}
+
+.footer {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
 }
 
