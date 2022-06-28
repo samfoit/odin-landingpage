@@ -117,3 +117,24 @@ p {
     text-align: center;
 }
 
+.quote {
+    background-color: #c6c6c6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.quote-text {
+    font-size: 24px;
+    color: #525252;
+    padding: 0px 350px 0px 350px;
+}
+
+.quote-text strong {
+    color: #000000;
+    display: inline;
+    font-size: 16px;
+    padding: 100px 0px 0px 2vh;
+}
+
